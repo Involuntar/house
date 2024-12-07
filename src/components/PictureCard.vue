@@ -4,7 +4,7 @@
         <div class="card__description">
             <p class="card__author">{{ pictureData.author }}</p>
             <h3 class="card__name">{{ pictureData.pictureName }}</h3>
-            <p class="card__style">{{ pictureData.style }} {{ pictureData.size }}</p>
+            <p class="card__style">{{ pictureData.style }} ({{ pictureData.size }})</p>
             <p class="card__price"> {{ pictureData.price }}</p>
             <button class="card__cart button">В корзину</button>
         </div>
@@ -25,7 +25,7 @@ export default {
     flex-direction: column;
     align-items: center;
     width: 350px;
-    height: 730px;
+    height: 680px;
     background-color: #E1EDE6;
     padding: 20px 0 30px;
     gap: 20px;
@@ -93,6 +93,7 @@ export default {
     line-height: 23.48px;
     padding: 21px 0;
     color: #598D66;
+    cursor: pointer;
 }
 
 @font-face {

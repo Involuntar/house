@@ -86,6 +86,18 @@ export default {
     line-height: 23.48px;
 }
 
+.reproductions__grid {
+    display: grid;
+    max-width: 1110px;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 730px);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+
 @media screen and (width <= 769px) {
     .reproductions__filters {
         max-width: 690px;
