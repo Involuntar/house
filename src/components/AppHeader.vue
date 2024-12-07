@@ -2,6 +2,7 @@
     <div class="app__header">
         <header class="header">
             <img src="house__logo.svg" alt="logo" class="header__logo">
+            <hr class="header_line_510">
             <nav class="header__navigation">
                 <RouterLink to="/">Репродукции</RouterLink>
                 <RouterLink to="/">Новинки</RouterLink>
@@ -32,6 +33,12 @@
     height: 35px;
 }
 
+.header_line_510 {
+    display: none;
+    width: 510px;
+    background-color: #C3D1C6;
+}
+
 .header__navigation {
     display: flex;
     align-items: center;
@@ -54,12 +61,24 @@
     height: 24px;
 }
 
-@media screen and (width <= 690px) {
+@media screen and (width <= 769px) {
     .header__navigation a {
         font-size: 18px;
         font-weight: 500;
         line-height: 21.13px;
+    }
 }
+
+@media screen and (width <= 577px) {
+    .header {
+        flex-direction: column;
+        height: 91px;
+        padding: 16px 33px;
+    }
+
+    .header_line_510 {
+        display: block;
+    }
 }
 
 @font-face {
