@@ -151,6 +151,9 @@ export default {
 }
 
 @media screen and (width <= 769px) {
+    .header {
+        padding: 0 39px;
+    }
     .header__navigation a {
         font-size: 18px;
         font-weight: 500;

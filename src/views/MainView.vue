@@ -21,7 +21,7 @@
     justify-content: center;
     max-width: 1110px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 15px;
     gap: 30px;
 }
 
@@ -33,6 +33,7 @@
 .hero__about {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     font-family: Raleway;
     text-align: left;
@@ -68,6 +69,96 @@
     width: 225px;
     height: 65px;
     cursor: pointer;
+}
+
+@media screen and (width <= 769px) {
+    .hero {
+        padding: 0 39px;
+    }
+    .hero__picture {
+        width: 330px;
+        height: 380px;
+    }
+
+    .about__header {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    .about__paragraph {
+        margin-bottom: 40px;
+    }
+
+    .about__production.button {
+        width: 210px;
+        height: 60px;
+    }
+}
+
+@media screen and (width <= 577px) {
+    .hero {
+        margin-top: 50px;
+        padding: 0 33px;
+    }
+
+    .hero__picture {
+        width: 195px;
+        height: 239px;
+    }
+
+    .about__header {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+
+    .about__paragraph {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 11px;
+    }
+
+    .about__production.button {
+        width: 178px;
+        height: 50px;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.13px;
+    }
+}
+
+@media screen and (width <= 376px) {
+    .hero {
+        margin-top: 60px;
+        padding: 0 15px;
+    }
+
+    .hero__picture {
+        display: none;
+    }
+
+    .about__header {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about__paragraph {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        margin-bottom: 40px;
+    }
+
+    .about__production.button {
+        width: 154px;
+        height: 50px;
+    }
 }
 
 @font-face {
