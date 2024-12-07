@@ -1,0 +1,161 @@
+{
+    "France": {
+        "Country": "Франция",
+        "Reproductions": [
+            {
+                "author": "Марсель Руссо",
+                "pictureName": "Охота Амура",
+                "style": "Холст, масло",
+                "size": "50х80",
+                "price": "14 500 руб",
+                "url": "pictures/France1.png"
+            },
+            {
+                "author": "Анри Селин",
+                "pictureName": "Дама с собачкой",
+                "style": "Акрил, бумага",
+                "size": "50х80",
+                "price": "16 500 руб",
+                "url": "pictures/France2.png"
+            },
+            {
+                "author": "Франсуа Дюпон",
+                "pictureName": "Процедура",
+                "style": "Цветная литография",
+                "size": "40х60",
+                "price": "20 000 руб",
+                "url": "pictures/France3.png"
+            },
+            {
+                "author": "Луи Детуш",
+                "pictureName": "Роза",
+                "style": "Бумага, акрил",
+                "size": "50х80",
+                "price": "12 000 руб",
+                "url": "pictures/France4.png"
+            },
+            {
+                "author": "Франсуа Дюпон",
+                "pictureName": "Птичья трапеза",
+                "style": "Цветная литография",
+                "size": "40х60",
+                "price": "22 500 руб",
+                "url": "pictures/France5.png"
+            },
+            {
+                "author": "Пьер Моранж",
+                "pictureName": "Пейзаж с рыбой",
+                "style": "Цветная литография",
+                "size": "40х60",
+                "price": "20 000 руб",
+                "url": "pictures/France6.png"
+            }
+        ]
+    },
+    "Germany": {
+        "Country": "Германия",
+        "Reproductions": [
+            {
+                "author": "Курт Вернер",
+                "pictureName": "Над городом",
+                "style": "Цветная литография",
+                "size": "40х60",
+                "price": "16 000 руб",
+                "url": ""
+            },
+            {
+                "author": "Макс Рихтер",
+                "pictureName": "Птенцы",
+                "style": "Холст, масло",
+                "size": "50х80",
+                "price": "14 500 руб",
+                "url": ""
+            },
+            {
+                "author": "Мартин Майер",
+                "pictureName": "Среди листьев",
+                "style": "Цветная литография",
+                "size": "40х60",
+                "price": "20 000 руб",
+                "url": ""
+            },
+            {
+                "author": "Герман Беккер",
+                "pictureName": "Яркая птица",
+                "style": "Цветная литография",
+                "size": "40х60",
+                "price": "13 000 руб",
+                "url": ""
+            },
+            {
+                "author": "Вульф Бауэр",
+                "pictureName": "Дятлы",
+                "style": "Бумага, акрил",
+                "size": "50х80",
+                "price": "20 000 руб",
+                "url": ""
+            },
+            {
+                "author": "Вальтер Хартманн",
+                "pictureName": "Большие воды",
+                "style": "Бумага, акрил",
+                "size": "50х80",
+                "price": "23 000 руб",
+                "url": ""
+            }
+        ]
+    },
+    "England": {
+        "Country": "Англия",
+        "Reproductions": [
+            {
+                "author": "Пол Смит",
+                "pictureName": "Дикий зверь",
+                "style": "Акварель, бумага",
+                "size": "50х80",
+                "price": "19 500 руб",
+                "url": ""
+            },
+            {
+                "author": "Джон Уайт",
+                "pictureName": "Скалистый берег",
+                "style": "Цветная литография",
+                "size": "40х60",
+                "price": "17 500 руб",
+                "url": ""
+            },
+            {
+                "author": "Джим Уотсон",
+                "pictureName": "Река и горы",
+                "style": "Акварель, бумага",
+                "size": "50х80",
+                "price": "20 500 руб",
+                "url": ""
+            },
+            {
+                "author": "Юджин Зиллион",
+                "pictureName": "Белый попугай",
+                "style": "Цветная литография",
+                "size": "40х60",
+                "price": "15 500 руб",
+                "url": ""
+            },
+            {
+                "author": "Эрик Гиллман",
+                "pictureName": "Ночная рыба",
+                "style": "Бумага, акрил",
+                "size": "50х80",
+                "price": "12 500 руб",
+                "url": ""
+            },
+            {
+                "author": "Альфред Барр",
+                "pictureName": "Рыжий кот",
+                "style": "Цветная литография",
+                "size": "40х60",
+                "price": "21 000 руб",
+                "url": ""
+            }
+        ]
+    }
+}
