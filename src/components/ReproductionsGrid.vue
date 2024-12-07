@@ -51,7 +51,7 @@ export default {
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1110px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 
 .reproduction__header {
@@ -98,7 +98,7 @@ export default {
     margin: 0 auto;
 }
 
-@media screen and (width <= 769px) {
+@media screen and (width <= 1025px) {
     .reproductions__filters {
         max-width: 690px;
         padding: 0 39px;
@@ -115,12 +115,19 @@ export default {
         font-weight: 500;
         line-height: 23.48px;
     }
+
+    .reproductions__grid {
+        max-width: 690px;
+        grid-template-columns: repeat(2, 330px);
+        grid-template-rows: repeat(3, 730px);
+    }
 }
 
 @media screen and (width <= 577px) {
     .reproductions__filters {
         max-width: 510px;
         padding: 0 33px;
+        margin: 0 auto 20px;
     }
 
     .reproduction__header {
@@ -135,9 +142,15 @@ export default {
         font-weight: 500;
         line-height: 21.13px;
     }
+
+    .reproductions__grid {
+        max-width: 510px;
+        grid-template-columns: repeat(2, 240px);
+        grid-template-rows: repeat(3, 514px);
+    }
 }
 
-@media screen and (width <= 376px) {
+@media screen and (width <= 426px) {
     .reproductions__filters {
         max-width: 290px;
         padding: 0 15px;
@@ -157,6 +170,12 @@ export default {
         font-size: 18px;
         font-weight: 500;
         line-height: 21.13px;
+    }
+
+    .reproductions__grid {
+        max-width: 510px;
+        grid-template-columns: repeat(1, 290px);
+        grid-template-rows: repeat(6, 514px);
     }
 }
 

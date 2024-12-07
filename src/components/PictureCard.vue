@@ -42,7 +42,7 @@ export default {
 .card__image {
     width: 310px;
     height: 422px;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
 }
 
@@ -95,6 +95,112 @@ export default {
     color: #598D66;
     cursor: pointer;
 }
+
+@media screen and (width <= 1025px) {
+    .picture__card {
+        width: 330px;
+    }
+}
+
+@media screen and (width <= 577px) {
+    .picture__card {
+        width: 240px;
+        height: 464px;
+    }
+
+    .card__image {
+        width: 200px;
+        height: 250px;
+    }
+
+    .card__description {
+        width: 200px;
+    }
+
+    .card__author {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.78px;
+    }
+
+    .card__name {
+        margin: 0 0 10px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28.18px;
+    }
+
+    .card__style {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.78px;
+    }
+
+    .card__price {
+        margin: 0 0 10px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23.48px;
+    }
+
+    .card__cart.button {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.13px;
+        padding: 14.5px 0;
+    }
+}
+
+@media screen and (width <= 426px) {
+    .picture__card {
+        width: 290px;
+        height: 464px;
+    }
+
+    .card__image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .card__description {
+        width: 250px;
+    }
+
+    .card__author {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.78px;
+    }
+
+    .card__name {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28.18px;
+    }
+
+    .card__style {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.78px;
+    }
+
+    .card__price {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23.48px;
+    }
+
+    .card__cart.button {
+        width: 250px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.13px;
+    }
+}
+
 
 @font-face {
     font-family: Raleway;
