@@ -16,10 +16,14 @@
                 <RouterLink to="/"><img src="cart.svg" alt="cart" class="navigation__cart picture"></RouterLink>
             </div>
             <nav class="header__navigation">
-                <RouterLink to="/">Репродукции</RouterLink>
-                <RouterLink to="/">Новинки</RouterLink>
-                <RouterLink to="/">О нас</RouterLink>
-                <RouterLink to="/"><img src="cart.svg" alt="cart" class="navigation__cart picture"></RouterLink>
+                <div class="header_navigation_text">
+                    <RouterLink to="/">Репродукции</RouterLink>
+                    <RouterLink to="/">Новинки</RouterLink>
+                    <RouterLink to="/">О нас</RouterLink>
+                </div>
+                <div class="header_navigation_cart">
+                    <RouterLink to="/"><img src="cart.svg" alt="cart" class="navigation__cart picture"></RouterLink>
+                </div>
             </nav>
         </header>
     </div>
@@ -50,7 +54,9 @@ export default {
 }
 
 .header__logo.container {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__logo.picture {
@@ -60,24 +66,23 @@ export default {
 
 .header_line_510 {
     display: none;
-    width: 510px;
+    width: 88.5vw;
     background-color: #C3D1C6;
 }
 
 .hamburger__menu {
-    position: relative;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
-    width: 290px;
+    width: 100%;
     height: 62px;
 }
 
 .hamburger.button {
     width: 30px;
     height: 30px;
-    margin: 0;
+    margin: 0 0 0 15px;
+    padding: 0;
     background-image: url("/public/hamburger.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -96,11 +101,12 @@ export default {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    width: 288px;
+    width: 100%;
     height: 433px;
     background-color: #E1EDE6;
     padding: 16px 15px;
-    transform: translate(-15px, 202px);
+    left: 0;
+    transform: translate(0, 202px);
 }
 
 .hamburger_navigation a {
@@ -116,9 +122,17 @@ export default {
 
 .header__navigation {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 60px;
+}
+
+.header_navigation_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-family: Raleway;
+    gap: 60px;
 }
 
 .header__navigation a {
@@ -151,8 +165,16 @@ export default {
         padding: 16px 33px;
     }
 
-    .navigation__cart.picture {
-        margin-left: 64px;
+    .header_navigation_text {
+        gap: 0;
+        justify-content: space-between;
+        width: 71%
+    }
+
+    .header__navigation {
+        width: 100%;
+        justify-content: space-between;
+        gap: 0;
     }
 
     .header_line_510 {
@@ -160,7 +182,7 @@ export default {
     }
 }
 
-@media screen and (width <= 321px) {
+@media screen and (width <= 376px) {
     .header {
         padding: 0;
         height: 130px;
@@ -171,6 +193,7 @@ export default {
         justify-content: center;
         align-items: center;
         height: 68px;
+        width: 100%;
         background-color: #FFFFFF;
     }
 
@@ -181,6 +204,18 @@ export default {
     .header__navigation {
         display: none;
     }
+
+    .hamburger__menu {
+        display: flex;
+    }
+
+    .hamburger_navigation > .hamburger.button {
+        margin: 0;
+    }
+
+    .navigation__cart.picture {
+        margin-right: 15px;
+    } 
 }
 
 @font-face {
