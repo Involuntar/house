@@ -13,6 +13,7 @@
     </div>
     <ReproductionsGrid />
     <PromoCollection />
+    <OurTeam />
 </template>
 
 <style>
@@ -171,6 +172,7 @@
 <script>
 import PromoCollection from '@/components/PromoCollection.vue';
 import ReproductionsGrid from '@/components/ReproductionsGrid.vue';
+import OurTeam from '@/components/OurTeam.vue';
 
 
 export default {
@@ -181,7 +183,8 @@ export default {
     },
     components: {
         ReproductionsGrid,
-        PromoCollection
+        PromoCollection,
+        OurTeam
     }
 }
 
