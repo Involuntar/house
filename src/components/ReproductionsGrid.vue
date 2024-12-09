@@ -28,7 +28,6 @@ export default {
     methods: {
         changeReproduction(item) {
             this.pictures = item.Reproductions;
-            console.log(this.pictures);
         }
     },
     mounted() {
@@ -36,6 +35,7 @@ export default {
         .then(resp => resp.json())
         .then(json => {
             this.reproductions = json;
+            this.pictures = this.reproductions.France.Reproductions;
         });
     },
     components: {
