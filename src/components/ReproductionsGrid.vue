@@ -150,7 +150,7 @@ export default {
     }
 }
 
-@media screen and (width <= 426px) {
+@media screen and (width <= 431px) {
     .reproductions__filters {
         max-width: 290px;
         padding: 0 15px;
