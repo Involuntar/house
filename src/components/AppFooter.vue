@@ -220,6 +220,7 @@
     .footer__social {
         width: 176px;
         height: 48px;
+        margin: 0;
     }
 
     .social__rights {
