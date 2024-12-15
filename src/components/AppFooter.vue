@@ -45,7 +45,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 .app__footer {
     width: 100%;
     margin-top: 70px;
