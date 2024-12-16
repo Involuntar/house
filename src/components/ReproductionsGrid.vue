@@ -5,8 +5,9 @@
             <div class="reproductions__filters">
                 <h2 class="reproduction__header">Репродукции</h2>
                 <div class="reproduction__countries">
-                    <button class="reproduction__country button" v-for="(item, key) in reproductions" :key="key"
-                        @click="changeReproduction(item)">{{ item.Country }}</button>
+                    <a class="reproduction__country button" :id="key" :href="'#' + key" v-for="(item, key) in reproductions" :key="key"
+                        @click="changeReproduction(item)">{{ item.Country }}
+                    </a>
                 </div>
             </div>
             <div class="reproductions__grid">
@@ -75,6 +76,7 @@ export default {
 }
 
 .reproduction__country.button {
+    text-decoration: none;
     border: none;
     padding: 10px 20px;
     background-color: #D4E8D9;
@@ -84,6 +86,21 @@ export default {
     font-size: 20px;
     font-weight: 500;
     line-height: 23.48px;
+}
+
+.reproduction__country.button:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
+.reproduction__country.button:active {
+    background-color: #D4E8D9;
+    border: 2px solid #598D66
+}
+
+.reproduction__country.button:target {
+    background-color: #376B44;
+    color: #F4F6F5;
 }
 
 .reproductions__grid {

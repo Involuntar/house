@@ -15,7 +15,7 @@
                 востребованность
                 направлений прогрессивного развития.
             </p>
-            <button class="promo__introduce button">Ознакомиться</button>
+            <a class="promo__introduce button">Ознакомиться</a>
         </div>
     </section>
 </template>
@@ -83,6 +83,10 @@
 }
 
 .promo__introduce.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     width: 257px;
     height: 65px;
     background-color: #EEDB6D;
@@ -90,9 +94,19 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 23.48px;
-    padding: 21px 0;
     margin-top: 60px;
     border: none;
+    color: #2C2D35;
+}
+
+.promo__introduce.button:hover {
+    border: 1px solid #A38314;
+    background-color: #FAEB97;
+    color: #2C2D35;
+}
+
+.promo__introduce.button:active {
+    background-color: #D9B949;
 }
 
 @media screen and (width <= 769px) {

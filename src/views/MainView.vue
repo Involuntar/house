@@ -8,7 +8,7 @@
             <p class="about__paragraph">
                 Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.
             </p>
-            <button class="about__production button">Продукция</button>
+            <a class="about__production button" href="#">Продукция</a>
         </div>
     </div>
     <ReproductionsGrid />
@@ -62,6 +62,10 @@
 }
 
 .about__production.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     font-size: 20px;
     font-weight: 500;
     line-height: 23.48px;
@@ -71,6 +75,16 @@
     width: 225px;
     height: 65px;
     cursor: pointer;
+}
+
+.about__production.button:hover {
+    background-color: #EEDB6D;
+    color: #2C2D35;
+}
+
+.about__production.button:active {
+    background-color: #D9B949;
+    color: #2C2D35;
 }
 
 @media screen and (width <= 769px) {

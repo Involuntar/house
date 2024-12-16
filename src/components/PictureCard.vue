@@ -96,6 +96,16 @@ export default {
     cursor: pointer;
 }
 
+.card__cart.button:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
+.card__cart.button:active {
+    background-color: #376B44;
+    columns: #FFF;
+}
+
 @media screen and (width <= 1025px) {
     .picture__card {
         width: 330px;
