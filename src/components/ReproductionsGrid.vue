@@ -1,5 +1,5 @@
 <template>
-    <div class="reproductions">
+    <section class="reproductions" id="reproductions">
         <p v-if="!reproductions">Загрузка...</p>
         <div v-else>
             <div class="reproductions__filters">
@@ -13,7 +13,7 @@
                 <PictureCard v-for="(picture, index) in pictures" :key="index" :picture-data="picture" />
             </div>
         </div>
-    </div>
+    </section>
 </template>
 <script>
 import PictureCard from './PictureCard.vue';

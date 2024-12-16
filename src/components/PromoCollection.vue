@@ -1,5 +1,5 @@
 <template>
-    <div class="promo">
+    <section class="promo" id="promo">
         <div class="promo_container">
             <div class="promo__header">
                 <img src="Star 2.svg" alt="star" class="header_promo_pic">
@@ -17,7 +17,7 @@
             </p>
             <button class="promo__introduce button">Ознакомиться</button>
         </div>
-    </div>
+    </section>
 </template>
 
 <style>

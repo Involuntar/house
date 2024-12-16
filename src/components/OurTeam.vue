@@ -1,5 +1,5 @@
 <template>
-    <div class="team">
+    <div class="team" id="team">
         <div class="team__pic">
             <img src="border.png" alt="border" class="team_pic_border">
             <img src="brushes.png" alt="brushes" class="team_pic_brushes">

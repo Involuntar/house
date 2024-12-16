@@ -17,9 +17,9 @@
             </div>
             <nav class="header__navigation">
                 <div class="header_navigation_text">
-                    <RouterLink to="/">Репродукции</RouterLink>
-                    <RouterLink to="/">Новинки</RouterLink>
-                    <RouterLink to="/">О нас</RouterLink>
+                    <a href="#reproductions">Репродукции</a>
+                    <a href="#promo">Новинки</a>
+                    <a href="#team">О нас</a>
                 </div>
                 <div class="header_navigation_cart">
                     <RouterLink to="/"><img src="cart.svg" alt="cart" class="navigation__cart picture"></RouterLink>
