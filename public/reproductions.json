@@ -61,7 +61,7 @@
                 "style": "Цветная литография",
                 "size": "40х60",
                 "price": "16 000 руб",
-                "url": ""
+                "url": "pictures/Germany1.png"
             },
             {
                 "author": "Макс Рихтер",
@@ -69,7 +69,7 @@
                 "style": "Холст, масло",
                 "size": "50х80",
                 "price": "14 500 руб",
-                "url": ""
+                "url": "pictures/Germany2.png"
             },
             {
                 "author": "Мартин Майер",
@@ -77,7 +77,7 @@
                 "style": "Цветная литография",
                 "size": "40х60",
                 "price": "20 000 руб",
-                "url": ""
+                "url": "pictures/Germany3.png"
             },
             {
                 "author": "Герман Беккер",
@@ -85,7 +85,7 @@
                 "style": "Цветная литография",
                 "size": "40х60",
                 "price": "13 000 руб",
-                "url": ""
+                "url": "pictures/Germany4.png"
             },
             {
                 "author": "Вульф Бауэр",
@@ -93,7 +93,7 @@
                 "style": "Бумага, акрил",
                 "size": "50х80",
                 "price": "20 000 руб",
-                "url": ""
+                "url": "pictures/Germany5.png"
             },
             {
                 "author": "Вальтер Хартманн",
@@ -101,7 +101,7 @@
                 "style": "Бумага, акрил",
                 "size": "50х80",
                 "price": "23 000 руб",
-                "url": ""
+                "url": "pictures/Germany6.png"
             }
         ]
     },
@@ -114,7 +114,7 @@
                 "style": "Акварель, бумага",
                 "size": "50х80",
                 "price": "19 500 руб",
-                "url": ""
+                "url": "pictures/England1.png"
             },
             {
                 "author": "Джон Уайт",
@@ -122,7 +122,7 @@
                 "style": "Цветная литография",
                 "size": "40х60",
                 "price": "17 500 руб",
-                "url": ""
+                "url": "pictures/England2.png"
             },
             {
                 "author": "Джим Уотсон",
@@ -130,7 +130,7 @@
                 "style": "Акварель, бумага",
                 "size": "50х80",
                 "price": "20 500 руб",
-                "url": ""
+                "url": "pictures/England3.png"
             },
             {
                 "author": "Юджин Зиллион",
@@ -138,7 +138,7 @@
                 "style": "Цветная литография",
                 "size": "40х60",
                 "price": "15 500 руб",
-                "url": ""
+                "url": "pictures/England4.png"
             },
             {
                 "author": "Эрик Гиллман",
@@ -146,7 +146,7 @@
                 "style": "Бумага, акрил",
                 "size": "50х80",
                 "price": "12 500 руб",
-                "url": ""
+                "url": "pictures/England5.png"
             },
             {
                 "author": "Альфред Барр",
@@ -154,7 +154,7 @@
                 "style": "Цветная литография",
                 "size": "40х60",
                 "price": "21 000 руб",
-                "url": ""
+                "url": "pictures/England6.png"
             }
         ]
     }
